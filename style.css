@@ -56,6 +56,10 @@ nav h1 {
     width: 100%;
 }
 
+.container .carousel {
+    height: 100%;
+}
+
 .container .carousel img {
     height: 100%;
     max-width: 100%;

@@ -14,6 +14,9 @@ $(document).ready(function () {
     `<div>
       <img src="img/gambar4.jpg" alt="gambar" />
     </div>`,
+    `<div>
+      <img src="img/gambar5.jpg" alt="gambar" />
+    </div>`,
   ]
   // append carousel items
   for (let i = 0; i < carouselItems.length; i++) {
