@@ -34,7 +34,7 @@ $(document).ready(function () {
     accessibility: false,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 5000,
   })
 
   // ASIDE
