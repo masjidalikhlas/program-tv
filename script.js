@@ -23,6 +23,11 @@ $(document).ready(function () {
     $("article .carousel").append(carouselItems[i])
   }
 
+  // ADD Video
+  const videoURL = "https://www.youtube.com/embed/KPooFWKqeuM"
+  const option = `autoplay=1` // option buat youtube playernya, isi atau kosong ''. Ref: https://developers.google.com/youtube/youtube_player_demo
+  $("#video-player").attr("src", `${videoURL}${option ? `?${option}` : ""}`)
+
   // set text berjalan di footer
   $(".marquee").marquee({
     //duration in milliseconds of the marquee
